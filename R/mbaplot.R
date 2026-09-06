@@ -1,3 +1,8 @@
+#' @importFrom ggplot2 ggplot aes geom_point geom_abline
+#' @importFrom ggplot2 labs scale_x_continuous scale_y_continuous theme_light
+#' @importFrom scales label_number
+#' @importFrom rlang .data
+#' @export
 
 mBAplot <- function (b.x, se.x, n.x, b.y, se.y, n.y, k.x = 0, k.y = 0,
                         main = "Modified Bland-Altman plot",
